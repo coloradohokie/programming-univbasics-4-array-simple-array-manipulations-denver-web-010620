@@ -36,3 +36,12 @@ end
 
 def using_flatten(a)
   a.flatten()
+end
+
+def using_delete(a, string)
+  a.delete(string)
+end
+
+def using_delete_at(array, int)
+  array[int].delete()
+end
